@@ -1,0 +1,6 @@
+framework module libBaiduNetdiskPlugin {
+  umbrella header "libBaiduNetdiskPlugin.h"
+
+  export *
+  module * { export * }
+}
