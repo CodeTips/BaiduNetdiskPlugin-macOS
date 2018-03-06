@@ -2,8 +2,8 @@
 
 ![platform](https://img.shields.io/badge/platform-macos-lightgrey.svg)  [![GitHub license](https://img.shields.io/github/license/CodeTips/BaiduNetdiskPlugin-macOS.svg)](https://github.com/CodeTips/BaiduNetdiskPlugin-macOS/blob/master/LICENSE)
 
-<img src="./Other/Screenshots/baidubetdiskplugin.png" width="444" height="295" />
-<img src="./Other/Screenshots/baidubetdiskplugin_1.png" width="444" height="295" />
+![baidubetdiskplugin](./Other/Screenshots/baidubetdiskplugin.png)
+![baidubetdiskplugin_1](./Other/Screenshots/baidubetdiskplugin_1.png)
 ### 说明
 * 免责声明：本项目旨在学习macOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。
 * 包含功能：百度网盘 SVIP破解和速度限制破解。
@@ -11,7 +11,7 @@
 
 ### 安装
 
-* 点击`clone or download`下载项目，解压运行`libBaiduNetdiskPlugin.xcodeproj`，然后`Edit Schemes`->`Executable`->`Other`->选择`百度网盘`。然后运行工程，运行后会有以下提示：
+* 点击`clone or download`下载项目，解压运行`libBaiduNetdiskPlugin.xcodeproj`，然后`Edit Schemes`->`Executable`->`Other`->选择`百度网盘`。然后运行工程，因为百度网盘有 VMProtect加壳，运行后会有以下提示：
 ![baidubetdiskplugin_2](./Other/Screenshots/baidubetdiskplugin_2.png)
 直接点击OK。
 * 然后运行`百度网盘`，如果用户VIP状态改变，证明成功。
