@@ -2,8 +2,8 @@
 
 ![platform](https://img.shields.io/badge/platform-macos-lightgrey.svg)  [![GitHub license](https://img.shields.io/github/license/CodeTips/BaiduNetdiskPlugin-macOS.svg)](https://github.com/CodeTips/BaiduNetdiskPlugin-macOS/blob/master/LICENSE)
 
-<img src="./Other/Screenshots/baidubetdiskplugin.png" width="443" height="295" />
-<img src="./Other/Screenshots/baidubetdiskplugin_1.png" width="443" height="295" />
+<img src="./Other/Screenshots/baidubetdiskplugin.png" width="440" height="295" />
+<img src="./Other/Screenshots/baidubetdiskplugin_1.png" width="440" height="295" />
 ### 说明
 * 免责声明：本项目旨在学习macOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。
 * 包含功能：百度网盘 SVIP破解和速度限制破解。
