@@ -21,7 +21,6 @@
 - (void)hook_setMaxBytesPerSecond:(unsigned long long)arg1
 {
     [self hook_setMaxBytesPerSecond:arg1*1000];
-    NSLog(@"MaxBytesPerSecond = %lld",arg1);
 }
 
 - (BOOL)hook_isSVip
