@@ -20,7 +20,7 @@
 
 - (void)hook_setMaxBytesPerSecond:(unsigned long long)arg1
 {
-    [self hook_setMaxBytesPerSecond:arg1*1000];
+    [self hook_setMaxBytesPerSecond:MAXFLOAT];
 }
 
 - (BOOL)hook_isSVip
