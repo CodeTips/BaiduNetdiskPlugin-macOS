@@ -26,3 +26,7 @@ FOUNDATION_EXPORT const unsigned char libBaiduNetdiskPluginVersionString[];
 - (BOOL)isSVip;
 @end
 
+@interface FileTransSpeedUpTrialManager : NSObject
+@property(nonatomic) long long probationaryDuration;
+@end
+
