@@ -28,5 +28,17 @@ FOUNDATION_EXPORT const unsigned char libBaiduNetdiskPluginVersionString[];
 
 @interface FileTransSpeedUpTrialManager : NSObject
 @property(nonatomic) long long probationaryDuration;
++ (id)sharedInstance;
+
+- (id)trialToken;
+- (void)resetTrialStatus;
+- (void)checkProbationary;
+- (void)startTrial;
 @end
 
+@interface ALModel : NSObject
+@end
+
+@interface SpeedUpTrialModel : ALModel
+@property(copy, nonatomic) NSString *token; // @synthesize token=_token;
+@end

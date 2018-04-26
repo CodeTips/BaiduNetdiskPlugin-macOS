@@ -22,6 +22,15 @@
 直接点击OK。
 * 然后运行`百度网盘`，如果用户VIP状态改变，证明成功。
 
+### 卸载
+
+ 1. 如果第一种方法安装的。
+ * 打开`应用程序`->`实用工具`->`Terminal(终端)`，执行以下命令即可。`cd ~/Downloads && ./BaiduNetdiskPlugin-macOS/Other/Uninstall.sh`
+ 2. 通用卸载方法。
+ * 打开`应用程序`->`实用工具`->`Terminal(终端)`，执行以下命令即可。`cd /Applications/BaiduNetdisk_mac.app/Contents/MacOS/ && rm -rf BaiduNetdisk_mac libBaiduNetdiskPlugin.framework && mv BaiduNetdisk_mac_backup BaiduNetdisk_mac`
+
+**以上方法可以完全卸载此功能。**
+ 
 ### 依赖
 
 * [insert_dylib](https://github.com/Tyilo/insert_dylib)
