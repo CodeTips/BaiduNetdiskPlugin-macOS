@@ -29,7 +29,7 @@
  2. 通用卸载方法。
  * 打开`应用程序`->`实用工具`->`Terminal(终端)`，执行以下命令即可。`cd /Applications/BaiduNetdisk_mac.app/Contents/MacOS/ && rm -rf BaiduNetdisk_mac libBaiduNetdiskPlugin.framework && mv BaiduNetdisk_mac_backup BaiduNetdisk_mac`
 
-**以上方法可以完全卸载此功能。**
+**以上方法可以完全卸载此功能。如果还是不行的话，那么抱歉，可能您需要重新安装了**
  
 ### 依赖
 
