@@ -20,7 +20,7 @@
 * 点击`clone or download`下载项目，解压运行`libBaiduNetdiskPlugin.xcodeproj`，然后`Edit Schemes`->`Executable`->`Other`->选择`百度网盘`。然后运行工程，因为百度网盘有 VMProtect加壳，运行后会有以下提示：
 ![baidubetdiskplugin_2](./Other/Screenshots/baidubetdiskplugin_2.png)
 直接点击OK。
-* 然后运行`百度网盘`，如果用户VIP状态改变，证明成功。
+* 然后运行或者重启`百度网盘`，如果用户VIP状态改变，证明成功。
 
 ### 卸载
 
