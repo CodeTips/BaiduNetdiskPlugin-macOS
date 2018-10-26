@@ -5,6 +5,7 @@
 ![baidubetdiskplugin](./Other/Screenshots/baidubetdiskplugin.png)
 ![baidubetdiskplugin_1](./Other/Screenshots/baidubetdiskplugin_1.png)
 ### 说明
+* 10月26号更新，百度云盘已经服务端限速，单文件最高200KB/S。
 * 6月21号更新，此补丁依旧适用于最新版。再次声明，此补丁没有加速功能。
 * 免责声明：本项目旨在学习macOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。
 * 包含功能：百度网盘 SVIP破解和速度限制破解。
