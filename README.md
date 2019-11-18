@@ -5,6 +5,7 @@
 ![baidubetdiskplugin](./Other/Screenshots/baidubetdiskplugin.png)
 ![baidubetdiskplugin_1](./Other/Screenshots/baidubetdiskplugin_1.png)
 ### 说明
+* **20191118更新，去掉自动检查更新功能。由于个人精力和能力有限，此项目不再更新支持新版网盘。如使用，请下载2.2.2版本 [官方下载地址][1]。**
 
 * **免责声明：本项目旨在学习macOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。**
 
@@ -47,3 +48,5 @@
 ### 最后
 * 使用愉快~
 
+
+  [1]: http://issuecdn.baidupcs.com/issue/netdisk/MACguanjia/BaiduNetdisk_mac_2.2.2.dmg

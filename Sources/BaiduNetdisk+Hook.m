@@ -20,6 +20,8 @@
     ct_hookMethod(objc_getClass("FileTransSpeedUpTrialManager"), @selector(trialToken), [self class], @selector(hook_trialToken));
     
     ct_hookMethod(objc_getClass("SpeedUpTrialModel"), @selector(setToken:), [self class], @selector(hook_setToken:));
+    
+    ct_hookMethod(objc_getClass("AppVersionManager"), @selector(checkUpdate), [self class], @selector(hook_checkUpdate));
 }
 
 - (void)hook_request:(long long)arg1 increaseBytesTransferred:(unsigned long long)arg2;
@@ -67,6 +69,11 @@
     }
     NSLog(@"token = %@",token);
     [self hook_setToken:token];
+}
+
+- (unsigned long long)hook_checkUpdate
+{
+    return NO;
 }
 
 @end
