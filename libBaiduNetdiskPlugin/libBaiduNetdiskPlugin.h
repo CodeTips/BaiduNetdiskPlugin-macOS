@@ -42,3 +42,7 @@ FOUNDATION_EXPORT const unsigned char libBaiduNetdiskPluginVersionString[];
 @interface SpeedUpTrialModel : ALModel
 @property(copy, nonatomic) NSString *token; // @synthesize token=_token;
 @end
+
+@interface AppVersionManager : NSObject
+- (unsigned long long)checkUpdate;
+@end
